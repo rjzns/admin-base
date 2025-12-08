@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="2e179c1e-e7ea-41f2-bd4f-2554b05f78dc">
+  <producedTypes>
+    <objectType typeId="578491c3-449d-4b71-934f-4d30d0f55254" valueTypeId="7e6f07d0-ee0d-49fc-819b-f722903d87e9"/>
+    <refType typeId="468f5aca-aaf9-45a6-b9d9-e065b67a30ad" valueTypeId="59705c6d-e421-439b-87fc-54a45aebc391"/>
+    <selectionType typeId="0505d0a7-6c2c-4ea0-8703-be0e0d649349" valueTypeId="00df66cc-b800-454f-97ec-3a0c817869a0"/>
+    <listType typeId="baa79d9a-492e-4fa0-a8a0-3a537aff0554" valueTypeId="8cc258fc-3e81-4b96-93a4-bc7996596ad6"/>
+    <managerType typeId="904319c6-665d-4181-a1fb-a6d540e32118" valueTypeId="7940291b-7093-458a-9d69-fc7583de1d41"/>
+  </producedTypes>
+  <name>Роли</name>
+  <synonym>
+    <key>ru</key>
+    <value>Роли</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.Роли.StandardAttribute.Description</inputByString>
+  <inputByString>Catalog.Роли.StandardAttribute.Code</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>9</codeLength>
+  <descriptionLength>100</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+  <attributes uuid="c8cdac69-35b5-435a-a106-c50979b2fc6c">
+    <name>Описание</name>
+    <synonym>
+      <key>ru</key>
+      <value>Описание</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>100</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="dc0af4dd-6cfe-4cd8-9197-7ca7988f8594">
+    <name>ИнформационнаяБаза</name>
+    <synonym>
+      <key>ru</key>
+      <value>Информационная база</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.ИнформационныеБазы</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+</mdclass:Catalog>

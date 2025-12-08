@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="7c01e68a-69f8-4e0f-9320-24d66a3e661c">
+  <producedTypes>
+    <selectionType typeId="3ab9e8c8-e82d-41f2-a9e9-d6377d0d25e6" valueTypeId="fb0d9332-1d22-4238-bb2d-e9d59614caed"/>
+    <listType typeId="aa547fca-cbd9-4742-9120-a24737daddc5" valueTypeId="563d51fc-3b02-493a-88bb-68541d6a03dd"/>
+    <managerType typeId="7741483c-5ca9-412e-b716-5c365d2cd6fb" valueTypeId="74e931c8-7467-4bcf-adf7-17c626900c1b"/>
+    <recordSetType typeId="e49c0ad1-0c57-4bc5-b729-7c25ac4d6190" valueTypeId="4673abd3-7e26-442b-ad9a-e31fac9ac053"/>
+    <recordKeyType typeId="50be33d1-3f0d-4e2c-94eb-a3c18d92ba6b" valueTypeId="835af191-153a-4c79-a968-6700dff517c8"/>
+    <recordType typeId="353ab0d2-a172-4455-810c-f2320b5adc07" valueTypeId="09d60e31-b9e5-4b04-b953-da01724c2035"/>
+    <recordManagerType typeId="79d893ae-c45e-479d-b9fa-43a7d3a16bc3" valueTypeId="fdbe977c-a105-4b5f-893c-4fc6dc530a7b"/>
+  </producedTypes>
+  <name>ДоступПользователей</name>
+  <synonym>
+    <key>ru</key>
+    <value>Доступ пользователей</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <editType>InDialog</editType>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <resources uuid="a162c338-812f-4d9f-9f99-c032f66d6ddc">
+    <name>ДатаНазначения</name>
+    <synonym>
+      <key>ru</key>
+      <value>Дата назначения</value>
+    </synonym>
+    <type>
+      <types>Date</types>
+      <dateQualifiers>
+        <dateFractions>Date</dateFractions>
+      </dateQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="e0980ea9-e341-4489-a8a2-fa6fe1a850fc">
+    <name>Статус</name>
+    <synonym>
+      <key>ru</key>
+      <value>Статус</value>
+    </synonym>
+    <type>
+      <types>EnumRef.СтатусДоступа</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <dimensions uuid="f2d643a5-b3c4-4736-b3c3-1742714806c5">
+    <name>Пользователь</name>
+    <synonym>
+      <key>ru</key>
+      <value>Пользователь</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Пользователи</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="c3d75e07-85c0-45d4-a19d-0f1f6c985ffc">
+    <name>ИнформационнаяБаза</name>
+    <synonym>
+      <key>ru</key>
+      <value>Информационная база</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.ИнформационныеБазы</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="1f2b8e19-8d93-4fa1-9f24-db06f2549d96">
+    <name>Роль</name>
+    <synonym>
+      <key>ru</key>
+      <value>Роль</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Роли</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+</mdclass:InformationRegister>

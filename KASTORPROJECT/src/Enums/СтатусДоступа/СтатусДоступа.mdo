@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="4f7b651a-0c06-4656-ae3e-4c39de297ae0">
+  <producedTypes>
+    <refType typeId="3fb50170-da66-4f73-94cb-18d0699dad78" valueTypeId="e547d74d-98a5-4767-9646-224901ab4abd"/>
+    <listType typeId="b79b819b-9f1c-46dd-ad1c-d33b15279ee6" valueTypeId="9f0541cd-3513-44f2-8733-c797d4eb6d04"/>
+    <managerType typeId="dc458fb3-7224-4d81-b27a-33e3b53a8197" valueTypeId="b0619d6e-ad89-4756-8bda-f2dd388e6494"/>
+  </producedTypes>
+  <name>СтатусДоступа</name>
+  <synonym>
+    <key>ru</key>
+    <value>Статус доступа</value>
+  </synonym>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="1aa10ffe-52eb-4920-8e27-370c07ef697a">
+    <name>Активен</name>
+    <synonym>
+      <key>ru</key>
+      <value>Активен</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="d51110cd-f847-4cd4-bf30-67b6ebfc5db8">
+    <name>Отменен</name>
+    <synonym>
+      <key>ru</key>
+      <value>Отменен</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

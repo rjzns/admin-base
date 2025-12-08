@@ -1,17 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<mdclass:Configuration xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="cc416bd0-ab92-4805-b1d2-e2c3dcae4e73">
-  <name>KASTORPROJECT</name>
-  <synonym>
-    <key>ru</key>
-    <value>KASTORPROJECT</value>
-  </synonym>
-  <containedObjects classId="9cd510cd-abfc-11d4-9434-004095e12fc7" objectId="115b3cda-4bb0-4939-b4ab-805132edddc9"/>
-  <containedObjects classId="9fcd25a0-4822-11d4-9414-008048da11f9" objectId="44efc897-a6a0-4614-921b-c2ddd4c80786"/>
-  <containedObjects classId="e3687481-0a87-462c-a166-9f34594f9bba" objectId="1384295b-a2fa-47f2-b921-1f371b10a544"/>
-  <containedObjects classId="9de14907-ec23-4a07-96f0-85521cb6b53b" objectId="68a40d59-1779-48b4-bcf1-2c900fe35f20"/>
-  <containedObjects classId="51f2d5d8-ea4d-4064-8892-82951750031e" objectId="d605c33b-f665-4b85-9355-38bd18801432"/>
-  <containedObjects classId="e68182ea-4237-4383-967f-90c1e3370bc7" objectId="4ad553e7-878d-4941-99ca-8ad7b2d87fc4"/>
-  <containedObjects classId="fb282519-d103-4dd3-bc12-cb271d631dfc" objectId="24187f2a-cab8-43ee-b54e-3b947be04c66"/>
+<mdclass:Configuration xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="bd73a36b-9a23-46f8-9da4-539ea6a34083">
+  <name>Конфигурация</name>
+  <containedObjects classId="9cd510cd-abfc-11d4-9434-004095e12fc7" objectId="ac1468d6-9621-439c-9b6f-6aa3163e3b84"/>
+  <containedObjects classId="9fcd25a0-4822-11d4-9414-008048da11f9" objectId="486dc466-f0d4-4b5f-b62b-5328d17d665b"/>
+  <containedObjects classId="e3687481-0a87-462c-a166-9f34594f9bba" objectId="b4269395-9337-44b4-be19-5c5684a712c6"/>
+  <containedObjects classId="9de14907-ec23-4a07-96f0-85521cb6b53b" objectId="a0711711-77b5-4d83-af0e-45a02ba80d3c"/>
+  <containedObjects classId="51f2d5d8-ea4d-4064-8892-82951750031e" objectId="b324fa01-d522-40e3-8238-b6497555ef2a"/>
+  <containedObjects classId="e68182ea-4237-4383-967f-90c1e3370bc7" objectId="afe6b0df-dd8e-49f2-984b-4d753a875228"/>
+  <containedObjects classId="fb282519-d103-4dd3-bc12-cb271d631dfc" objectId="2933b6e1-ff99-4a11-88de-52b78e086272"/>
   <configurationExtensionCompatibilityMode>8.3.27</configurationExtensionCompatibilityMode>
   <defaultRunMode>ManagedApplication</defaultRunMode>
   <usePurposes>PersonalComputer</usePurposes>
@@ -30,8 +26,8 @@
   <objectAutonumerationMode>NotAutoFree</objectAutonumerationMode>
   <modalityUseMode>DontUse</modalityUseMode>
   <synchronousPlatformExtensionAndAddInCallUseMode>DontUse</synchronousPlatformExtensionAndAddInCallUseMode>
-  <compatibilityMode>8.3.27</compatibilityMode>
-  <languages uuid="f5de14e4-f063-421d-880d-6a5bc9a29a2e">
+  <compatibilityMode>8.3.26</compatibilityMode>
+  <languages uuid="f562a160-f827-47d2-b8d2-8a43569358b1">
     <name>Русский</name>
     <synonym>
       <key>ru</key>
@@ -39,4 +35,11 @@
     </synonym>
     <languageCode>ru</languageCode>
   </languages>
+  <catalogs>Catalog.ИнформационныеБазы</catalogs>
+  <catalogs>Catalog.Организации</catalogs>
+  <catalogs>Catalog.Подразделения</catalogs>
+  <catalogs>Catalog.Пользователи</catalogs>
+  <catalogs>Catalog.Роли</catalogs>
+  <enums>Enum.СтатусДоступа</enums>
+  <informationRegisters>InformationRegister.ДоступПользователей</informationRegisters>
 </mdclass:Configuration>
