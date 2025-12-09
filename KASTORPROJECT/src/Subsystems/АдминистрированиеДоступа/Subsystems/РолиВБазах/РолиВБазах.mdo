@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="de2d8b26-0847-4e4e-b825-04e78a051e8b">
+  <name>РолиВБазах</name>
+  <synonym>
+    <key>ru</key>
+    <value>Роли в базах</value>
+  </synonym>
+  <includeHelpInContents>true</includeHelpInContents>
+  <includeInCommandInterface>true</includeInCommandInterface>
+  <content>Catalog.РолиВБазах</content>
+  <parentSubsystem>Subsystem.АдминистрированиеДоступа</parentSubsystem>
+</mdclass:Subsystem>

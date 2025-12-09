@@ -35,11 +35,16 @@
     </synonym>
     <languageCode>ru</languageCode>
   </languages>
+  <subsystems>Subsystem.АдминистрированиеДоступа</subsystems>
+  <subsystems>Subsystem.НСИиАдминистрирование</subsystems>
+  <catalogs>Catalog.Должности</catalogs>
   <catalogs>Catalog.ИнформационныеБазы</catalogs>
   <catalogs>Catalog.Организации</catalogs>
   <catalogs>Catalog.Подразделения</catalogs>
   <catalogs>Catalog.Пользователи</catalogs>
-  <catalogs>Catalog.Роли</catalogs>
+  <catalogs>Catalog.РолиВБазах</catalogs>
+  <catalogs>Catalog.Сотрудники</catalogs>
+  <catalogs>Catalog.ТипыИнформационныхБаз</catalogs>
   <enums>Enum.СтатусДоступа</enums>
-  <informationRegisters>InformationRegister.ДоступПользователей</informationRegisters>
+  <informationRegisters>InformationRegister.ДоступыСотрудников</informationRegisters>
 </mdclass:Configuration>

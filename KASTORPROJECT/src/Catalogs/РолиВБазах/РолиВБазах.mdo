@@ -7,22 +7,22 @@
     <listType typeId="baa79d9a-492e-4fa0-a8a0-3a537aff0554" valueTypeId="8cc258fc-3e81-4b96-93a4-bc7996596ad6"/>
     <managerType typeId="904319c6-665d-4181-a1fb-a6d540e32118" valueTypeId="7940291b-7093-458a-9d69-fc7583de1d41"/>
   </producedTypes>
-  <name>Роли</name>
+  <name>РолиВБазах</name>
   <synonym>
     <key>ru</key>
-    <value>Роли</value>
+    <value>Роли в базах</value>
   </synonym>
   <useStandardCommands>true</useStandardCommands>
-  <inputByString>Catalog.Роли.StandardAttribute.Description</inputByString>
-  <inputByString>Catalog.Роли.StandardAttribute.Code</inputByString>
+  <inputByString>Catalog.РолиВБазах.StandardAttribute.Description</inputByString>
+  <inputByString>Catalog.РолиВБазах.StandardAttribute.Code</inputByString>
   <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
   <createOnInput>Use</createOnInput>
   <dataLockControlMode>Managed</dataLockControlMode>
   <fullTextSearch>Use</fullTextSearch>
   <levelCount>2</levelCount>
   <foldersOnTop>true</foldersOnTop>
-  <codeLength>9</codeLength>
-  <descriptionLength>100</descriptionLength>
+  <codeLength>20</codeLength>
+  <descriptionLength>150</descriptionLength>
   <codeType>String</codeType>
   <codeAllowedLength>Variable</codeAllowedLength>
   <checkUnique>true</checkUnique>
@@ -58,6 +58,45 @@
     </synonym>
     <type>
       <types>CatalogRef.ИнформационныеБазы</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="e3480c74-d6f7-4fff-b813-cadddd8a095a">
+    <name>ИмяРолиВКонфигурации</name>
+    <synonym>
+      <key>ru</key>
+      <value>Имя роли в конфигурации</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>100</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="cfbea051-c0bf-4861-ba3d-b9dca0801d34">
+    <name>Активна</name>
+    <synonym>
+      <key>ru</key>
+      <value>Активна</value>
+    </synonym>
+    <type>
+      <types>Date</types>
+      <dateQualifiers>
+        <dateFractions>Date</dateFractions>
+      </dateQualifiers>
     </type>
     <minValue xsi:type="core:UndefinedValue"/>
     <maxValue xsi:type="core:UndefinedValue"/>

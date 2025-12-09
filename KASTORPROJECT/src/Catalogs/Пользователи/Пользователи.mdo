@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="8c1a8740-beae-4cbd-b0e0-7ac3c58335d3">
+<mdclass:Catalog xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="82edf6d6-7e44-4cdc-9bf1-265294ea794b">
   <producedTypes>
-    <objectType typeId="8cb3ba60-2065-4c64-ac9c-b72e0413f48a" valueTypeId="4b33ff90-743b-4549-9e59-d99493a5a9f3"/>
-    <refType typeId="32cd5cad-8781-4bd2-aabb-d01498c09097" valueTypeId="85d6ebc9-7062-4a2b-8409-7eda7cc2a480"/>
-    <selectionType typeId="203ea400-4c5e-434f-abfc-3170a60b1da6" valueTypeId="54e581d9-bc92-47e9-b8fe-dd6087930ab3"/>
-    <listType typeId="1642e77f-d230-44e5-9d55-58049b4c7e61" valueTypeId="eb21d96f-b781-4545-b6fa-2ebf2bc8b1b5"/>
-    <managerType typeId="7b73f6ad-1834-43ca-bc5a-ad0e27376693" valueTypeId="72171c3e-2823-447d-80c1-3eee6b091267"/>
+    <objectType typeId="0fa26c96-70cf-475c-a78c-30af04e71109" valueTypeId="24bb141e-99bb-424b-bed7-7b515047d01c"/>
+    <refType typeId="efcedbbc-6b49-459d-8a01-9e637e74bb6c" valueTypeId="3a68d523-785a-4ea5-b172-96d7ad515144"/>
+    <selectionType typeId="8f031556-4752-47fe-8f80-dc62581f8128" valueTypeId="34b5f2be-ef1f-4ef2-be6d-7b8abd291548"/>
+    <listType typeId="4a937786-0994-4e89-9607-e2dee3977e98" valueTypeId="8fbca972-c531-4f45-99f5-720493172f16"/>
+    <managerType typeId="c6ab91a7-1908-4ed1-8994-b919139c0c62" valueTypeId="b161f6c9-57fc-403f-a788-2ba8036a28be"/>
   </producedTypes>
   <name>Пользователи</name>
   <synonym>
@@ -21,8 +21,8 @@
   <fullTextSearch>Use</fullTextSearch>
   <levelCount>2</levelCount>
   <foldersOnTop>true</foldersOnTop>
-  <codeLength>9</codeLength>
-  <descriptionLength>100</descriptionLength>
+  <codeLength>20</codeLength>
+  <descriptionLength>150</descriptionLength>
   <codeType>String</codeType>
   <codeAllowedLength>Variable</codeAllowedLength>
   <checkUnique>true</checkUnique>
@@ -30,99 +30,4 @@
   <defaultPresentation>AsDescription</defaultPresentation>
   <editType>InDialog</editType>
   <choiceMode>BothWays</choiceMode>
-  <attributes uuid="1e9ed0ab-c3a6-45c5-a543-486eb9f305b0">
-    <name>Организация</name>
-    <synonym>
-      <key>ru</key>
-      <value>Организация</value>
-    </synonym>
-    <type>
-      <types>String</types>
-      <stringQualifiers>
-        <length>10</length>
-      </stringQualifiers>
-    </type>
-    <minValue xsi:type="core:UndefinedValue"/>
-    <maxValue xsi:type="core:UndefinedValue"/>
-    <fillValue xsi:type="core:StringValue">
-      <value></value>
-    </fillValue>
-    <fullTextSearch>Use</fullTextSearch>
-    <dataHistory>Use</dataHistory>
-  </attributes>
-  <attributes uuid="64852441-06c9-4fc6-ae45-716c0d3f026d">
-    <name>Подразделение</name>
-    <synonym>
-      <key>ru</key>
-      <value>Подразделение</value>
-    </synonym>
-    <type>
-      <types>String</types>
-      <stringQualifiers>
-        <length>10</length>
-      </stringQualifiers>
-    </type>
-    <minValue xsi:type="core:UndefinedValue"/>
-    <maxValue xsi:type="core:UndefinedValue"/>
-    <fillValue xsi:type="core:StringValue">
-      <value></value>
-    </fillValue>
-    <fullTextSearch>Use</fullTextSearch>
-    <dataHistory>Use</dataHistory>
-  </attributes>
-  <attributes uuid="1eae5d76-e087-42f4-b98f-0f804f6c9256">
-    <name>Должность</name>
-    <synonym>
-      <key>ru</key>
-      <value>Должность</value>
-    </synonym>
-    <type>
-      <types>String</types>
-      <stringQualifiers>
-        <length>10</length>
-      </stringQualifiers>
-    </type>
-    <minValue xsi:type="core:UndefinedValue"/>
-    <maxValue xsi:type="core:UndefinedValue"/>
-    <fillValue xsi:type="core:StringValue">
-      <value></value>
-    </fillValue>
-    <fullTextSearch>Use</fullTextSearch>
-    <dataHistory>Use</dataHistory>
-  </attributes>
-  <attributes uuid="00d70f61-ef4a-4286-a173-c5770b08316e">
-    <name>Статус</name>
-    <synonym>
-      <key>ru</key>
-      <value>Статус</value>
-    </synonym>
-    <type>
-      <types>EnumRef.СтатусДоступа</types>
-    </type>
-    <minValue xsi:type="core:UndefinedValue"/>
-    <maxValue xsi:type="core:UndefinedValue"/>
-    <fillValue xsi:type="core:UndefinedValue"/>
-    <fullTextSearch>Use</fullTextSearch>
-    <dataHistory>Use</dataHistory>
-  </attributes>
-  <attributes uuid="ec3e1438-6756-4044-a8ca-a71b18af5c74">
-    <name>Комментарий</name>
-    <synonym>
-      <key>ru</key>
-      <value>Комментарий</value>
-    </synonym>
-    <type>
-      <types>String</types>
-      <stringQualifiers>
-        <length>200</length>
-      </stringQualifiers>
-    </type>
-    <minValue xsi:type="core:UndefinedValue"/>
-    <maxValue xsi:type="core:UndefinedValue"/>
-    <fillValue xsi:type="core:StringValue">
-      <value></value>
-    </fillValue>
-    <fullTextSearch>Use</fullTextSearch>
-    <dataHistory>Use</dataHistory>
-  </attributes>
 </mdclass:Catalog>

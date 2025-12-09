@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="50e62d7e-40ea-44db-ac19-081640764e30">
+  <name>СотрудникиИМестоРаботы</name>
+  <synonym>
+    <key>ru</key>
+    <value>Сотрудники и место работы</value>
+  </synonym>
+  <includeHelpInContents>true</includeHelpInContents>
+  <includeInCommandInterface>true</includeInCommandInterface>
+  <content>Catalog.Организации</content>
+  <content>Catalog.Должности</content>
+  <content>Catalog.Подразделения</content>
+  <content>Catalog.Пользователи</content>
+  <content>Catalog.Сотрудники</content>
+  <parentSubsystem>Subsystem.АдминистрированиеДоступа</parentSubsystem>
+</mdclass:Subsystem>

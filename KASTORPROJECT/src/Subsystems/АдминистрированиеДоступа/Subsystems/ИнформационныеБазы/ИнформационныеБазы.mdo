@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="5c7ec024-fe69-4d61-8d6f-0ebfb34b7156">
+  <name>ИнформационныеБазы</name>
+  <synonym>
+    <key>ru</key>
+    <value>Информационные базы</value>
+  </synonym>
+  <includeHelpInContents>true</includeHelpInContents>
+  <includeInCommandInterface>true</includeInCommandInterface>
+  <content>Catalog.ИнформационныеБазы</content>
+  <content>Catalog.ТипыИнформационныхБаз</content>
+  <parentSubsystem>Subsystem.АдминистрированиеДоступа</parentSubsystem>
+</mdclass:Subsystem>

@@ -9,13 +9,14 @@
     <recordType typeId="353ab0d2-a172-4455-810c-f2320b5adc07" valueTypeId="09d60e31-b9e5-4b04-b953-da01724c2035"/>
     <recordManagerType typeId="79d893ae-c45e-479d-b9fa-43a7d3a16bc3" valueTypeId="fdbe977c-a105-4b5f-893c-4fc6dc530a7b"/>
   </producedTypes>
-  <name>ДоступПользователей</name>
+  <name>ДоступыСотрудников</name>
   <synonym>
     <key>ru</key>
-    <value>Доступ пользователей</value>
+    <value>Доступы сотрудников</value>
   </synonym>
   <useStandardCommands>true</useStandardCommands>
   <editType>InDialog</editType>
+  <informationRegisterPeriodicity>Day</informationRegisterPeriodicity>
   <dataLockControlMode>Managed</dataLockControlMode>
   <resources uuid="a162c338-812f-4d9f-9f99-c032f66d6ddc">
     <name>ДатаНазначения</name>
@@ -36,13 +37,13 @@
     <fillValue xsi:type="core:UndefinedValue"/>
   </resources>
   <resources uuid="e0980ea9-e341-4489-a8a2-fa6fe1a850fc">
-    <name>Статус</name>
+    <name>ДоступРазрешен</name>
     <synonym>
       <key>ru</key>
-      <value>Статус</value>
+      <value>Доступ разрешен</value>
     </synonym>
     <type>
-      <types>EnumRef.СтатусДоступа</types>
+      <types>Boolean</types>
     </type>
     <minValue xsi:type="core:UndefinedValue"/>
     <maxValue xsi:type="core:UndefinedValue"/>
@@ -50,14 +51,81 @@
     <dataHistory>Use</dataHistory>
     <fillValue xsi:type="core:UndefinedValue"/>
   </resources>
-  <dimensions uuid="f2d643a5-b3c4-4736-b3c3-1742714806c5">
-    <name>Пользователь</name>
+  <resources uuid="27e01f4b-f16b-46ca-9ebb-c5d1a604dbc9">
+    <name>Роль</name>
     <synonym>
       <key>ru</key>
-      <value>Пользователь</value>
+      <value>Роль</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.РолиВБазах</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="37bdcc86-a7a3-4529-a2e4-c1e427f250d6">
+    <name>ЗаблокированВручную</name>
+    <synonym>
+      <key>ru</key>
+      <value>Заблокирован вручную</value>
+    </synonym>
+    <comment>Временная блокировка</comment>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <attributes uuid="0ace468f-41f1-44b9-8d92-53e11383e887">
+    <name>АвторИзменения</name>
+    <synonym>
+      <key>ru</key>
+      <value>Автор изменения</value>
     </synonym>
     <type>
       <types>CatalogRef.Пользователи</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="41121266-2266-476c-a52d-92b619c42de9">
+    <name>ПричинаИзменения</name>
+    <synonym>
+      <key>ru</key>
+      <value>Причина изменения</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>200</length>
+      </stringQualifiers>
+    </type>
+    <multiLine>true</multiLine>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+  </attributes>
+  <dimensions uuid="f2d643a5-b3c4-4736-b3c3-1742714806c5">
+    <name>Сотрудник</name>
+    <synonym>
+      <key>ru</key>
+      <value>Сотрудник</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Сотрудники</types>
     </type>
     <minValue xsi:type="core:UndefinedValue"/>
     <maxValue xsi:type="core:UndefinedValue"/>
@@ -74,22 +142,6 @@
     </synonym>
     <type>
       <types>CatalogRef.ИнформационныеБазы</types>
-    </type>
-    <minValue xsi:type="core:UndefinedValue"/>
-    <maxValue xsi:type="core:UndefinedValue"/>
-    <fullTextSearch>Use</fullTextSearch>
-    <dataHistory>Use</dataHistory>
-    <fillValue xsi:type="core:UndefinedValue"/>
-    <mainFilter>true</mainFilter>
-  </dimensions>
-  <dimensions uuid="1f2b8e19-8d93-4fa1-9f24-db06f2549d96">
-    <name>Роль</name>
-    <synonym>
-      <key>ru</key>
-      <value>Роль</value>
-    </synonym>
-    <type>
-      <types>CatalogRef.Роли</types>
     </type>
     <minValue xsi:type="core:UndefinedValue"/>
     <maxValue xsi:type="core:UndefinedValue"/>
