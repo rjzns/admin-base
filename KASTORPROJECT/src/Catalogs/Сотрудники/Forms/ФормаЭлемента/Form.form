@@ -92,7 +92,7 @@
     </extInfo>
   </items>
   <items xsi:type="form:FormField">
-    <name>Фамили</name>
+    <name>Фамилия</name>
     <id>22</id>
     <visible>true</visible>
     <enabled>true</enabled>
@@ -100,14 +100,14 @@
       <common>true</common>
     </userVisible>
     <dataPath xsi:type="form:DataPath">
-      <segments>Объект.Фамили</segments>
+      <segments>Объект.Фамилия</segments>
     </dataPath>
     <handlers>
       <event>OnChange</event>
       <name>ФамилияПриИзменении</name>
     </handlers>
     <extendedTooltip>
-      <name>ФамилиРасширеннаяПодсказка</name>
+      <name>ФамилияРасширеннаяПодсказка</name>
       <id>24</id>
       <type>Label</type>
       <autoMaxWidth>true</autoMaxWidth>
@@ -117,7 +117,7 @@
       </extInfo>
     </extendedTooltip>
     <contextMenu>
-      <name>ФамилиКонтекстноеМеню</name>
+      <name>ФамилияКонтекстноеМеню</name>
       <id>23</id>
       <autoFill>true</autoFill>
     </contextMenu>
@@ -182,7 +182,7 @@
     </extInfo>
   </items>
   <items xsi:type="form:FormField">
-    <name>Отчетство</name>
+    <name>Отчество</name>
     <id>28</id>
     <visible>true</visible>
     <enabled>true</enabled>
@@ -190,14 +190,14 @@
       <common>true</common>
     </userVisible>
     <dataPath xsi:type="form:DataPath">
-      <segments>Объект.Отчетство</segments>
+      <segments>Объект.Отчество</segments>
     </dataPath>
     <handlers>
       <event>OnChange</event>
       <name>ОтчествоПриИзменении</name>
     </handlers>
     <extendedTooltip>
-      <name>ОтчетствоРасширеннаяПодсказка</name>
+      <name>ОтчествоРасширеннаяПодсказка</name>
       <id>30</id>
       <type>Label</type>
       <autoMaxWidth>true</autoMaxWidth>
@@ -207,7 +207,7 @@
       </extInfo>
     </extendedTooltip>
     <contextMenu>
-      <name>ОтчетствоКонтекстноеМеню</name>
+      <name>ОтчествоКонтекстноеМеню</name>
       <id>29</id>
       <autoFill>true</autoFill>
     </contextMenu>
@@ -486,6 +486,10 @@
       <dataPath xsi:type="form:DataPath">
         <segments>Объект.Уволен</segments>
       </dataPath>
+      <handlers>
+        <event>OnChange</event>
+        <name>УволенПриИзменении</name>
+      </handlers>
       <extendedTooltip>
         <name>УволенРасширеннаяПодсказка</name>
         <id>36</id>
@@ -511,7 +515,6 @@
     <items xsi:type="form:FormField">
       <name>ДатаУвольнения</name>
       <id>37</id>
-      <visible>true</visible>
       <enabled>true</enabled>
       <userVisible>
         <common>true</common>
