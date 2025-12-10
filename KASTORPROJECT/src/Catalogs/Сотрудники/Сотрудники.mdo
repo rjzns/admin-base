@@ -59,6 +59,10 @@
     <minValue xsi:type="core:UndefinedValue"/>
     <maxValue xsi:type="core:UndefinedValue"/>
     <fillChecking>ShowError</fillChecking>
+    <choiceParameterLinks>
+      <name>Отбор.Организация</name>
+      <field>Catalog.Сотрудники.Attribute.Организация</field>
+    </choiceParameterLinks>
     <fillValue xsi:type="core:UndefinedValue"/>
     <fullTextSearch>Use</fullTextSearch>
     <dataHistory>Use</dataHistory>
@@ -116,10 +120,10 @@
     <dataHistory>Use</dataHistory>
   </attributes>
   <attributes uuid="3f747aa3-1140-404d-a003-5fc2e7aa2a61">
-    <name>Фамили</name>
+    <name>Фамилия</name>
     <synonym>
       <key>ru</key>
-      <value>Фамили</value>
+      <value>Фамилия</value>
     </synonym>
     <type>
       <types>String</types>
@@ -158,10 +162,10 @@
     <dataHistory>Use</dataHistory>
   </attributes>
   <attributes uuid="701205e5-d109-43c2-b9fc-e9367d7d5814">
-    <name>Отчетство</name>
+    <name>Отчество</name>
     <synonym>
       <key>ru</key>
-      <value>Отчетство</value>
+      <value>Отчество</value>
     </synonym>
     <type>
       <types>String</types>

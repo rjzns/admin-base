@@ -21,7 +21,6 @@
   <fullTextSearch>Use</fullTextSearch>
   <levelCount>2</levelCount>
   <foldersOnTop>true</foldersOnTop>
-  <owners>Catalog.Организации</owners>
   <codeLength>20</codeLength>
   <descriptionLength>150</descriptionLength>
   <codeType>String</codeType>
