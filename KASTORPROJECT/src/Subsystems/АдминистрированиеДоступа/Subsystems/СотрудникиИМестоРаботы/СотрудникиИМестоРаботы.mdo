@@ -10,7 +10,6 @@
   <content>Catalog.Организации</content>
   <content>Catalog.Должности</content>
   <content>Catalog.Подразделения</content>
-  <content>Catalog.Пользователи</content>
   <content>Catalog.Сотрудники</content>
   <parentSubsystem>Subsystem.АдминистрированиеДоступа</parentSubsystem>
 </mdclass:Subsystem>
