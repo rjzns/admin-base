@@ -11,5 +11,7 @@
   <content>Catalog.Должности</content>
   <content>Catalog.Подразделения</content>
   <content>Catalog.Сотрудники</content>
+  <content>Catalog.ПользователиИБ</content>
+  <content>Catalog.СопоставлениеСотрудниковИПользователей</content>
   <parentSubsystem>Subsystem.АдминистрированиеДоступа</parentSubsystem>
 </mdclass:Subsystem>

@@ -521,7 +521,10 @@
   <catalogs>Catalog.Организации</catalogs>
   <catalogs>Catalog.Подразделения</catalogs>
   <catalogs>Catalog.Пользователи</catalogs>
+  <catalogs>Catalog.ПользователиИБ</catalogs>
+  <catalogs>Catalog.ПрофилиДоступа</catalogs>
   <catalogs>Catalog.РолиВБазах</catalogs>
+  <catalogs>Catalog.СопоставлениеСотрудниковИПользователей</catalogs>
   <catalogs>Catalog.Сотрудники</catalogs>
   <catalogs>Catalog.ТипыИнформационныхБаз</catalogs>
   <enums>Enum.ПорядокОбработчиковОбновления</enums>

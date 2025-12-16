@@ -8,5 +8,6 @@
   <includeHelpInContents>true</includeHelpInContents>
   <includeInCommandInterface>true</includeInCommandInterface>
   <content>Catalog.РолиВБазах</content>
+  <content>Catalog.ПрофилиДоступа</content>
   <parentSubsystem>Subsystem.АдминистрированиеДоступа</parentSubsystem>
 </mdclass:Subsystem>

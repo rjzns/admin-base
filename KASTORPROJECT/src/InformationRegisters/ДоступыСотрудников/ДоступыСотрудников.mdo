@@ -16,6 +16,7 @@
   </synonym>
   <useStandardCommands>true</useStandardCommands>
   <editType>InDialog</editType>
+  <defaultRecordForm>InformationRegister.ДоступыСотрудников.Form.ФормаЗаписи</defaultRecordForm>
   <informationRegisterPeriodicity>Day</informationRegisterPeriodicity>
   <dataLockControlMode>Managed</dataLockControlMode>
   <resources uuid="a162c338-812f-4d9f-9f99-c032f66d6ddc">
@@ -55,10 +56,10 @@
     <name>Роль</name>
     <synonym>
       <key>ru</key>
-      <value>Роль</value>
+      <value>Профиль доступа</value>
     </synonym>
     <type>
-      <types>CatalogRef.РолиВБазах</types>
+      <types>CatalogRef.ПрофилиДоступа</types>
     </type>
     <minValue xsi:type="core:UndefinedValue"/>
     <maxValue xsi:type="core:UndefinedValue"/>
@@ -150,4 +151,13 @@
     <fillValue xsi:type="core:UndefinedValue"/>
     <mainFilter>true</mainFilter>
   </dimensions>
+  <forms uuid="339e7a9a-bfe3-49be-a6c6-f14f5287c1c7">
+    <name>ФормаЗаписи</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма записи</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
 </mdclass:InformationRegister>
