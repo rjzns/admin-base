@@ -101,6 +101,10 @@
       <dataPath xsi:type="form:DataPath">
         <segments>Объект.Сотрудник</segments>
       </dataPath>
+      <handlers>
+        <event>OnChange</event>
+        <name>СотрудникПриИзменении</name>
+      </handlers>
       <extendedTooltip>
         <name>СотрудникРасширеннаяПодсказка</name>
         <id>9</id>
@@ -249,6 +253,10 @@
     <dataPath xsi:type="form:DataPath">
       <segments>Объект.Недействителен</segments>
     </dataPath>
+    <handlers>
+      <event>OnChange</event>
+      <name>НедействителенПриИзменении</name>
+    </handlers>
     <extendedTooltip>
       <name>НедействителенРасширеннаяПодсказка</name>
       <id>24</id>
@@ -318,7 +326,6 @@
     <items xsi:type="form:FormField">
       <name>ДатаОтмены</name>
       <id>19</id>
-      <visible>true</visible>
       <enabled>true</enabled>
       <userVisible>
         <common>true</common>
