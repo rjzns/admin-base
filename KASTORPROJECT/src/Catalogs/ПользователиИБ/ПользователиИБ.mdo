@@ -30,6 +30,7 @@
   <defaultPresentation>AsDescription</defaultPresentation>
   <editType>InDialog</editType>
   <choiceMode>BothWays</choiceMode>
+  <defaultObjectForm>Catalog.ПользователиИБ.Form.ФормаЭлемента</defaultObjectForm>
   <attributes uuid="289be28e-f405-4acc-b105-f2089cb4b77a">
     <name>НаименованиеБазы</name>
     <synonym>
@@ -104,4 +105,13 @@
     <fullTextSearch>Use</fullTextSearch>
     <dataHistory>Use</dataHistory>
   </attributes>
+  <forms uuid="178ca5b6-6d47-49e4-a638-85b3755bf9d2">
+    <name>ФормаЭлемента</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма элемента</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
 </mdclass:Catalog>

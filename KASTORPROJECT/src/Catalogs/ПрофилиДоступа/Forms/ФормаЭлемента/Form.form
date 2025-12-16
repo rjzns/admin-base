@@ -141,6 +141,10 @@
       <dataPath xsi:type="form:DataPath">
         <segments>Объект.Роли.Роль</segments>
       </dataPath>
+      <handlers>
+        <event>OnChange</event>
+        <name>РолиРольПриИзменении</name>
+      </handlers>
       <extendedTooltip>
         <name>РолиРольРасширеннаяПодсказка</name>
         <id>28</id>
@@ -198,6 +202,7 @@
         <autoFill>true</autoFill>
       </contextMenu>
       <type>InputField</type>
+      <readOnly>true</readOnly>
       <editMode>EnterOnInput</editMode>
       <showInHeader>true</showInHeader>
       <headerHorizontalAlign>Left</headerHorizontalAlign>
@@ -239,6 +244,7 @@
         <autoFill>true</autoFill>
       </contextMenu>
       <type>CheckBoxField</type>
+      <readOnly>true</readOnly>
       <editMode>EnterOnInput</editMode>
       <showInHeader>true</showInHeader>
       <headerHorizontalAlign>Left</headerHorizontalAlign>
@@ -251,6 +257,10 @@
       <horizontalAlign>Left</horizontalAlign>
       <autoFill>true</autoFill>
     </autoCommandBar>
+    <handlers>
+      <event>OnStartEdit</event>
+      <name>РолиПриНачалеРедактирования</name>
+    </handlers>
     <searchStringAddition>
       <name>РолиСтрокаПоиска</name>
       <id>14</id>
