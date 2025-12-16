@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="4d70d229-9c26-4a98-a987-bb0a5bb1921f">
+  <producedTypes>
+    <objectType typeId="619e2033-6b0e-4ab5-99b3-356938ff39dc" valueTypeId="6465edec-70b4-4cf2-9592-2546d36e4838"/>
+    <refType typeId="90e7d7dd-035d-4fb0-9b78-2718d12e8e9b" valueTypeId="cd448c61-a5d7-4728-b31e-b056a5ca4a59"/>
+    <selectionType typeId="3e812fd2-7ebc-42fb-8c7a-6bc832b3cd94" valueTypeId="c90a0b77-0609-45a1-971a-f6f82e78cbd3"/>
+    <listType typeId="bbed3f3b-5753-4385-afc7-ab0755981d53" valueTypeId="7263f56d-0496-4ee3-b9ef-1aec8e8c7c4b"/>
+    <managerType typeId="e07149d6-264f-4ec0-8f59-8e5691e5bc30" valueTypeId="0dd29617-c0f3-4cd8-aa1d-133289685c76"/>
+  </producedTypes>
+  <name>ПрофилиДоступа</name>
+  <synonym>
+    <key>ru</key>
+    <value>Профили доступа</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.ПрофилиДоступа.StandardAttribute.Description</inputByString>
+  <inputByString>Catalog.ПрофилиДоступа.StandardAttribute.Code</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>9</codeLength>
+  <descriptionLength>150</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+  <defaultObjectForm>Catalog.ПрофилиДоступа.Form.ФормаЭлемента</defaultObjectForm>
+  <attributes uuid="d202a686-16a1-49a7-9110-2bb468a96a74">
+    <name>Комментарий</name>
+    <synonym>
+      <key>ru</key>
+      <value>Комментарий</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>150</length>
+      </stringQualifiers>
+    </type>
+    <multiLine>true</multiLine>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <tabularSections uuid="4493faf5-30bf-438d-b3d5-4af8c33f4c91">
+    <producedTypes>
+      <objectType typeId="3e680fa9-e55b-443a-8119-50711f1dd94e" valueTypeId="c9e67b45-37b1-4319-8002-0ad903e1b158"/>
+      <rowType typeId="cc7bbe4b-4d3b-4763-9273-f51339425251" valueTypeId="5bb95de5-576f-4e01-ba47-34b289d76a82"/>
+    </producedTypes>
+    <name>Роли</name>
+    <synonym>
+      <key>ru</key>
+      <value>Роли</value>
+    </synonym>
+    <attributes uuid="dc72846d-667b-49f2-8b0d-24ccdba73249">
+      <name>Роль</name>
+      <synonym>
+        <key>ru</key>
+        <value>Роль</value>
+      </synonym>
+      <type>
+        <types>CatalogRef.РолиВБазах</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="489c4b69-e532-4a90-8b30-8d2339d78c98">
+      <name>ИнформационнаяБаза</name>
+      <synonym>
+        <key>ru</key>
+        <value>Информационная база</value>
+      </synonym>
+      <type>
+        <types>CatalogRef.ИнформационныеБазы</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="fc81425c-a2d4-4345-9d6c-63fc09436d17">
+      <name>Активна</name>
+      <synonym>
+        <key>ru</key>
+        <value>Активна</value>
+      </synonym>
+      <type>
+        <types>Boolean</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+  </tabularSections>
+  <forms uuid="e3b847ff-f08c-4f81-a499-58b74324af6d">
+    <name>ФормаЭлемента</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма элемента</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:Catalog>

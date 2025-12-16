@@ -375,19 +375,23 @@
       <id>17</id>
       <autoFill>true</autoFill>
     </contextMenu>
-    <type>InputField</type>
+    <type>RadioButtonField</type>
     <editMode>EnterOnInput</editMode>
     <showInHeader>true</showInHeader>
     <headerHorizontalAlign>Left</headerHorizontalAlign>
     <showInFooter>true</showInFooter>
-    <extInfo xsi:type="form:InputFieldExtInfo">
-      <autoMaxWidth>true</autoMaxWidth>
-      <autoMaxHeight>true</autoMaxHeight>
-      <wrap>true</wrap>
-      <extendedEditMultipleValues>true</extendedEditMultipleValues>
-      <chooseType>true</chooseType>
-      <typeDomainEnabled>true</typeDomainEnabled>
-      <textEdit>true</textEdit>
+    <extInfo xsi:type="form:RadioButtonsFieldExtInfo">
+      <radioButtonsType>Tumbler</radioButtonsType>
+      <choiceList>
+        <value xsi:type="core:ReferenceValue">
+          <value>Enum.СтатусДоступа.EnumValue.Активен</value>
+        </value>
+      </choiceList>
+      <choiceList>
+        <value xsi:type="core:ReferenceValue">
+          <value>Enum.СтатусДоступа.EnumValue.Отменен</value>
+        </value>
+      </choiceList>
     </extInfo>
   </items>
   <items xsi:type="form:FormField">
@@ -641,6 +645,10 @@
     <items xsi:type="form:FormField">
       <name>ДоступыСотрудникаРоль</name>
       <id>61</id>
+      <title>
+        <key>ru</key>
+        <value>Профиль</value>
+      </title>
       <visible>true</visible>
       <enabled>true</enabled>
       <userVisible>
@@ -1104,7 +1112,7 @@
       </title>
       <id>2</id>
       <valueType>
-        <types>CatalogRef.РолиВБазах</types>
+        <types>CatalogRef.ПрофилиДоступа</types>
       </valueType>
       <view>
         <common>true</common>

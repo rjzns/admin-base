@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="334e40a7-6121-4696-b077-0142dfd4fff5">
+  <producedTypes>
+    <objectType typeId="ee616d92-86c6-400d-9cdc-98c3e023bd9b" valueTypeId="5cfeecf0-983f-402e-94ef-fe3a87f1a782"/>
+    <refType typeId="7557bc80-25b1-487d-8747-ba691e9683e3" valueTypeId="16df0009-9d87-4254-ad23-b35901521258"/>
+    <selectionType typeId="b644afb5-d2c9-484d-95ec-b2a7adf06990" valueTypeId="fd9930bb-90fb-4b1d-8c9c-7196b4e5425b"/>
+    <listType typeId="82def766-6375-4df6-9c77-742bf23cb232" valueTypeId="c0809d45-1bb0-49d2-8762-1dda5bdcac76"/>
+    <managerType typeId="83fd9435-acac-49a5-967a-b345ce96dbbb" valueTypeId="26a3ec74-3779-4c32-8616-0f277189a050"/>
+  </producedTypes>
+  <name>ПользователиИБ</name>
+  <synonym>
+    <key>ru</key>
+    <value>Пользователи Информационных Баз</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.ПользователиИБ.StandardAttribute.Description</inputByString>
+  <inputByString>Catalog.ПользователиИБ.StandardAttribute.Code</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>9</codeLength>
+  <descriptionLength>150</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+  <attributes uuid="289be28e-f405-4acc-b105-f2089cb4b77a">
+    <name>НаименованиеБазы</name>
+    <synonym>
+      <key>ru</key>
+      <value>Наименование базы</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.ИнформационныеБазы</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="45bb95bf-283e-4f75-a1e3-73c7d166a053">
+    <name>ИмяПользователяИБ</name>
+    <synonym>
+      <key>ru</key>
+      <value>Имя пользователя ИБ</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>150</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="cdb68ff4-8590-4953-ac9c-f70186f10472">
+    <name>Недействителен</name>
+    <synonym>
+      <key>ru</key>
+      <value>Недействителен</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="5d588d23-3797-4ebd-bb04-d63bbf29e964">
+    <name>ПарольПользователяИБ</name>
+    <synonym>
+      <key>ru</key>
+      <value>Пароль пользователя ИБ</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>150</length>
+      </stringQualifiers>
+    </type>
+    <passwordMode>true</passwordMode>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+</mdclass:Catalog>
