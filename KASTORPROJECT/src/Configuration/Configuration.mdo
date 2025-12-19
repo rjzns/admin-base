@@ -494,6 +494,7 @@
   <commonForms>CommonForm.ВыборТиповПользователей</commonForms>
   <commonForms>CommonForm.ВыборУзловПлановОбмена</commonForms>
   <commonForms>CommonForm.ВыборФорматаВложений</commonForms>
+  <commonForms>CommonForm.ВыводПользователейИБ</commonForms>
   <commonForms>CommonForm.ГруппыПользователей</commonForms>
   <commonForms>CommonForm.ДлительнаяОперация</commonForms>
   <commonForms>CommonForm.КонтрольДинамическогоОбновления</commonForms>
