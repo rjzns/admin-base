@@ -8,6 +8,5 @@
   <includeHelpInContents>true</includeHelpInContents>
   <includeInCommandInterface>true</includeInCommandInterface>
   <content>Catalog.ИнформационныеБазы</content>
-  <content>Catalog.ТипыИнформационныхБаз</content>
   <parentSubsystem>Subsystem.АдминистрированиеДоступа</parentSubsystem>
 </mdclass:Subsystem>

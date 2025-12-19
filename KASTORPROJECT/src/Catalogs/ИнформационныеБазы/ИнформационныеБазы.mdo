@@ -80,7 +80,7 @@
       <value>Тип базы</value>
     </synonym>
     <type>
-      <types>CatalogRef.ТипыИнформационныхБаз</types>
+      <types>EnumRef.ТипыИнформационныхБаз</types>
     </type>
     <minValue xsi:type="core:UndefinedValue"/>
     <maxValue xsi:type="core:UndefinedValue"/>
