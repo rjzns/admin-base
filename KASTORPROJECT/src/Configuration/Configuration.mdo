@@ -526,7 +526,6 @@
   <catalogs>Catalog.РолиВБазах</catalogs>
   <catalogs>Catalog.СопоставлениеСотрудниковИПользователей</catalogs>
   <catalogs>Catalog.Сотрудники</catalogs>
-  <catalogs>Catalog.ТипыИнформационныхБаз</catalogs>
   <enums>Enum.ПорядокОбработчиковОбновления</enums>
   <enums>Enum.РежимыВыполненияОбработчиков</enums>
   <enums>Enum.РежимыВыполненияОтложенныхОбработчиков</enums>
@@ -534,6 +533,7 @@
   <enums>Enum.СтатусДоступа</enums>
   <enums>Enum.СтатусыОбработчиковОбновления</enums>
   <enums>Enum.ТипыДанныхКэшаПрограммныхИнтерфейсов</enums>
+  <enums>Enum.ТипыИнформационныхБаз</enums>
   <enums>Enum.ФорматыВыгрузкиОбъектов</enums>
   <enums>Enum.ФорматыСохраненияОтчетов</enums>
   <reports>Report.ДлительностьОтложенногоОбновления</reports>

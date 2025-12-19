@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="1b4c90b5-1015-4283-9a97-f9b06a718c11">
+  <producedTypes>
+    <refType typeId="a485cabd-f1a8-4b12-942f-3e7051326af1" valueTypeId="ee2d841e-a78a-4e99-aaec-94d3b001ab46"/>
+    <listType typeId="addeb9d8-7e64-4eff-b433-4ad97bce5b34" valueTypeId="7cc7fb40-5796-4ba5-a821-ea3161fcfce5"/>
+    <managerType typeId="3a16fc84-f9d5-4a9f-be64-346f555e8957" valueTypeId="cdaa6245-8dfc-4ff3-b94f-b4bb82a5f639"/>
+  </producedTypes>
+  <name>ТипыИнформационныхБаз</name>
+  <synonym>
+    <key>ru</key>
+    <value>Типы информационных баз</value>
+  </synonym>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="f15215a6-4b44-4873-ad80-e7f1cbb9b2b6">
+    <name>Файловый</name>
+    <synonym>
+      <key>ru</key>
+      <value>Файловый</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="54615362-3ae7-4714-a42b-7f9ab8910062">
+    <name>Серверный</name>
+    <synonym>
+      <key>ru</key>
+      <value>Серверный</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>
