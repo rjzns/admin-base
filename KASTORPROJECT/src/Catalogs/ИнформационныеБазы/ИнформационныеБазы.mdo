@@ -93,7 +93,7 @@
     <name>АдресСервера</name>
     <synonym>
       <key>ru</key>
-      <value>Адрес сервера</value>
+      <value>Сервер</value>
     </synonym>
     <type>
       <types>String</types>

@@ -525,8 +525,10 @@
   <catalogs>Catalog.ПользователиИБ</catalogs>
   <catalogs>Catalog.ПрофилиДоступа</catalogs>
   <catalogs>Catalog.РолиВБазах</catalogs>
+  <catalogs>Catalog.Сервера</catalogs>
   <catalogs>Catalog.СопоставлениеСотрудниковИПользователей</catalogs>
   <catalogs>Catalog.Сотрудники</catalogs>
+  <catalogs>Catalog.ТипыСерверов</catalogs>
   <enums>Enum.ПорядокОбработчиковОбновления</enums>
   <enums>Enum.РежимыВыполненияОбработчиков</enums>
   <enums>Enum.РежимыВыполненияОтложенныхОбработчиков</enums>
