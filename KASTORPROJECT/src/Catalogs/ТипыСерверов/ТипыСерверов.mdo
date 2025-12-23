@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="0780bbb6-e10f-4487-be9a-37d1ae1489e6">
+  <producedTypes>
+    <objectType typeId="55f296b1-6c9a-42e3-b115-4feb6d32c809" valueTypeId="51be9e7e-fcb6-4b4b-9706-d07480a041b9"/>
+    <refType typeId="91276cc2-5bc8-4d2b-9af1-5c7235183c86" valueTypeId="e12af462-e271-4830-ba34-731feb9c4931"/>
+    <selectionType typeId="4a14efe7-19de-4ad7-b0c6-f5c7b990729d" valueTypeId="cc132da8-39e3-472c-8508-a11d3802696a"/>
+    <listType typeId="20c91a83-3f07-4ea0-bd50-6a0777311011" valueTypeId="4b773150-f4f5-4cd3-a388-ca8e96830504"/>
+    <managerType typeId="b6c1bafe-df10-473b-85b8-a75fc5360f07" valueTypeId="812fe15a-6c27-48e0-8d70-cbf9d5f6a148"/>
+  </producedTypes>
+  <name>ТипыСерверов</name>
+  <synonym>
+    <key>ru</key>
+    <value>Типы серверов</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.ТипыСерверов.StandardAttribute.Description</inputByString>
+  <inputByString>Catalog.ТипыСерверов.StandardAttribute.Code</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>9</codeLength>
+  <descriptionLength>25</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+</mdclass:Catalog>
