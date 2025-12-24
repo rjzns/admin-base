@@ -355,7 +355,6 @@
   <commonModules>CommonModule.ОбновлениеИнформационнойБазыБСП</commonModules>
   <commonModules>CommonModule.ОбновлениеИнформационнойБазыВызовСервера</commonModules>
   <commonModules>CommonModule.ОбновлениеИнформационнойБазыГлобальный</commonModules>
-  <commonModules>CommonModule.ОбновлениеИнформационнойБазыКИ</commonModules>
   <commonModules>CommonModule.ОбновлениеИнформационнойБазыКлиент</commonModules>
   <commonModules>CommonModule.ОбновлениеИнформационнойБазыКлиентПереопределяемый</commonModules>
   <commonModules>CommonModule.ОбновлениеИнформационнойБазыПереопределяемый</commonModules>
@@ -409,6 +408,7 @@
   <commonModules>CommonModule.ФайловаяСистемаСлужебныйКлиентСервер</commonModules>
   <commonModules>CommonModule.ФизическиеЛицаКлиентСервер</commonModules>
   <commonModules>CommonModule.ФизическиеЛицаКлиентСерверЛокализация</commonModules>
+  <commonModules>CommonModule.ОбновлениеИнформационнойБазыКИ</commonModules>
   <commonAttributes>CommonAttribute.ОтредактированныеПредопределенныеРеквизиты</commonAttributes>
   <exchangePlans>ExchangePlan.ОбновлениеИнформационнойБазы</exchangePlans>
   <webServices>WebService.InterfaceVersion</webServices>
@@ -494,7 +494,6 @@
   <commonForms>CommonForm.ВыборТиповПользователей</commonForms>
   <commonForms>CommonForm.ВыборУзловПлановОбмена</commonForms>
   <commonForms>CommonForm.ВыборФорматаВложений</commonForms>
-  <commonForms>CommonForm.ВыводПользователейИБ</commonForms>
   <commonForms>CommonForm.ГруппыПользователей</commonForms>
   <commonForms>CommonForm.ДлительнаяОперация</commonForms>
   <commonForms>CommonForm.КонтрольДинамическогоОбновления</commonForms>
@@ -511,34 +510,35 @@
   <commonForms>CommonForm.СравнениеТабличныхДокументов</commonForms>
   <commonForms>CommonForm.ФормаВыбораЦвета</commonForms>
   <commonForms>CommonForm.ФормаВыбораШрифта</commonForms>
+  <commonForms>CommonForm.ВыводПользователейИБ</commonForms>
+  <catalogs>Catalog.Должности</catalogs>
+  <catalogs>Catalog.ИнформационныеБазы</catalogs>
+  <catalogs>Catalog.Организации</catalogs>
+  <catalogs>Catalog.Подразделения</catalogs>
+  <catalogs>Catalog.РолиВБазах</catalogs>
+  <catalogs>Catalog.Сотрудники</catalogs>
   <catalogs>Catalog.ВерсииРасширений</catalogs>
   <catalogs>Catalog.ВнешниеПользователи</catalogs>
   <catalogs>Catalog.ГруппыВнешнихПользователей</catalogs>
   <catalogs>Catalog.ГруппыПользователей</catalogs>
-  <catalogs>Catalog.Должности</catalogs>
   <catalogs>Catalog.ИдентификаторыОбъектовМетаданных</catalogs>
   <catalogs>Catalog.ИдентификаторыОбъектовРасширений</catalogs>
-  <catalogs>Catalog.ИнформационныеБазы</catalogs>
-  <catalogs>Catalog.Организации</catalogs>
-  <catalogs>Catalog.Подразделения</catalogs>
   <catalogs>Catalog.Пользователи</catalogs>
   <catalogs>Catalog.ПользователиИБ</catalogs>
   <catalogs>Catalog.ПрофилиДоступа</catalogs>
-  <catalogs>Catalog.РолиВБазах</catalogs>
-  <catalogs>Catalog.Сервера</catalogs>
   <catalogs>Catalog.СопоставлениеСотрудниковИПользователей</catalogs>
-  <catalogs>Catalog.Сотрудники</catalogs>
+  <catalogs>Catalog.Сервера</catalogs>
   <catalogs>Catalog.ТипыСерверов</catalogs>
+  <enums>Enum.СтатусДоступа</enums>
   <enums>Enum.ПорядокОбработчиковОбновления</enums>
   <enums>Enum.РежимыВыполненияОбработчиков</enums>
   <enums>Enum.РежимыВыполненияОтложенныхОбработчиков</enums>
   <enums>Enum.СпособыРедактированияЭлектронныхПисем</enums>
-  <enums>Enum.СтатусДоступа</enums>
   <enums>Enum.СтатусыОбработчиковОбновления</enums>
   <enums>Enum.ТипыДанныхКэшаПрограммныхИнтерфейсов</enums>
-  <enums>Enum.ТипыИнформационныхБаз</enums>
   <enums>Enum.ФорматыВыгрузкиОбъектов</enums>
   <enums>Enum.ФорматыСохраненияОтчетов</enums>
+  <enums>Enum.ТипыИнформационныхБаз</enums>
   <reports>Report.ДлительностьОтложенногоОбновления</reports>
   <reports>Report.ПользователиПоПодразделениям</reports>
   <reports>Report.ПрогрессОтложенногоОбновления</reports>
@@ -550,12 +550,13 @@
   <dataProcessors>DataProcessor.ОписаниеОбработчиковОбновления</dataProcessors>
   <dataProcessors>DataProcessor.РезультатыОбновленияПрограммы</dataProcessors>
   <dataProcessors>DataProcessor.РекомендацияПоПовышениюСкоростиРаботы</dataProcessors>
+  <dataProcessors>DataProcessor.ЗаполнениеИзJSON</dataProcessors>
+  <informationRegisters>InformationRegister.ДоступыСотрудников</informationRegisters>
   <informationRegisters>InformationRegister.БезопасноеХранилищеДанных</informationRegisters>
   <informationRegisters>InformationRegister.БезопасноеХранилищеДанныхОбластейДанных</informationRegisters>
   <informationRegisters>InformationRegister.ВерсииПодсистем</informationRegisters>
   <informationRegisters>InformationRegister.ДанныеОбработанныеВЦентральномУзлеРИБ</informationRegisters>
   <informationRegisters>InformationRegister.ДлительныеОперации</informationRegisters>
-  <informationRegisters>InformationRegister.ДоступыСотрудников</informationRegisters>
   <informationRegisters>InformationRegister.ИдентификаторыОбъектовВерсийРасширений</informationRegisters>
   <informationRegisters>InformationRegister.ИерархияГруппПользователей</informationRegisters>
   <informationRegisters>InformationRegister.КэшПрограммныхИнтерфейсов</informationRegisters>
