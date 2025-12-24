@@ -10,5 +10,6 @@
   <content>Catalog.ИнформационныеБазы</content>
   <content>Catalog.Сервера</content>
   <content>Catalog.ТипыСерверов</content>
+  <content>DataProcessor.ЗаполнениеИзJSON</content>
   <parentSubsystem>Subsystem.АдминистрированиеДоступа</parentSubsystem>
 </mdclass:Subsystem>
