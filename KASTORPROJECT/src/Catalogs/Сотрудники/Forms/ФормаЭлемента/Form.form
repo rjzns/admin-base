@@ -99,9 +99,6 @@
     <userVisible>
       <common>true</common>
     </userVisible>
-    <dataPath xsi:type="form:DataPath">
-      <segments>Объект.Фамилия</segments>
-    </dataPath>
     <handlers>
       <event>OnChange</event>
       <name>ФамилияПриИзменении</name>
@@ -144,9 +141,6 @@
     <userVisible>
       <common>true</common>
     </userVisible>
-    <dataPath xsi:type="form:DataPath">
-      <segments>Объект.Имя</segments>
-    </dataPath>
     <handlers>
       <event>OnChange</event>
       <name>ИмяПриИзменении</name>
@@ -189,9 +183,6 @@
     <userVisible>
       <common>true</common>
     </userVisible>
-    <dataPath xsi:type="form:DataPath">
-      <segments>Объект.Отчество</segments>
-    </dataPath>
     <handlers>
       <event>OnChange</event>
       <name>ОтчествоПриИзменении</name>

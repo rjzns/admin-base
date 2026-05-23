@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:HTTPService xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="2b1b9a5c-1096-42f7-9cd4-7ed01e74abe8">
+  <name>kadry</name>
+  <synonym>
+    <key>ru</key>
+    <value>Kadry</value>
+  </synonym>
+  <rootURL>kadry</rootURL>
+  <reuseSessions>AutoUse</reuseSessions>
+  <sessionMaxAge>20</sessionMaxAge>
+  <urlTemplates uuid="241c3edc-9d6e-4f32-8349-a2e96eddb181">
+    <name>person</name>
+    <synonym>
+      <key>ru</key>
+      <value>Person</value>
+    </synonym>
+    <template>/v1/person</template>
+    <methods uuid="d0c887b4-d8b2-4d4a-9a16-5912e0790a14">
+      <name>priem</name>
+      <synonym>
+        <key>ru</key>
+        <value>Priem</value>
+      </synonym>
+      <httpMethod>POST</httpMethod>
+      <handler>personpriem</handler>
+    </methods>
+    <methods uuid="25baf8f2-b82a-4102-b61b-3aa5e9cdd763">
+      <name>add</name>
+      <synonym>
+        <key>ru</key>
+        <value>Add</value>
+      </synonym>
+      <handler>personadd</handler>
+    </methods>
+  </urlTemplates>
+</mdclass:HTTPService>

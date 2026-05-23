@@ -46,7 +46,6 @@
     </type>
     <minValue xsi:type="core:UndefinedValue"/>
     <maxValue xsi:type="core:UndefinedValue"/>
-    <fillChecking>ShowError</fillChecking>
     <fillValue xsi:type="core:StringValue">
       <value></value>
     </fillValue>
@@ -91,7 +90,7 @@
     <dataHistory>Use</dataHistory>
   </attributes>
   <attributes uuid="7b00e6e8-e7ec-400e-bba8-8b608f767f51">
-    <name>АдресСервера</name>
+    <name>Сервер</name>
     <synonym>
       <key>ru</key>
       <value>Сервер</value>
@@ -113,6 +112,24 @@
     </synonym>
     <type>
       <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="399d4b53-b1bc-4080-8b65-bd6dd872da8b">
+    <name>ПутьКБазе</name>
+    <synonym>
+      <key>ru</key>
+      <value>Путь к базе</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>250</length>
+      </stringQualifiers>
     </type>
     <minValue xsi:type="core:UndefinedValue"/>
     <maxValue xsi:type="core:UndefinedValue"/>

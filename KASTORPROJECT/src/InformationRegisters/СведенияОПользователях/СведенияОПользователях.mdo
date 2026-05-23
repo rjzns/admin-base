@@ -660,6 +660,7 @@
     </synonym>
     <type>
       <types>CatalogRef.ВнешниеПользователи</types>
+      <types>CatalogRef.ПользователиИБ</types>
       <types>CatalogRef.Пользователи</types>
     </type>
     <toolTip>

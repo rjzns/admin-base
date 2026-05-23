@@ -1,10 +1,24 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<mdclass:Subsystem xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="d7162a87-dc40-407a-a195-d38cb121de1b">
+<mdclass:Subsystem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="d7162a87-dc40-407a-a195-d38cb121de1b">
   <name>НСИиАдминистрирование</name>
   <synonym>
     <key>ru</key>
-    <value>НСИи администрирование</value>
+    <value>НСИ и администрирование</value>
   </synonym>
   <includeHelpInContents>true</includeHelpInContents>
   <includeInCommandInterface>true</includeInCommandInterface>
+  <picture xsi:type="core:PictureRef">
+    <picture>CommonPicture.ПодсистемаНСИ</picture>
+  </picture>
+  <content>Catalog.ФизическиеЛица</content>
+  <content>DataProcessor.ЗагрузкаДанныхИзБазы1С</content>
+  <content>Catalog.Пользователи</content>
+  <content>Catalog.Организации</content>
+  <content>Catalog.ИнформационныеБазы</content>
+  <content>Catalog.ПользователиИБ</content>
+  <content>Catalog.Сервера</content>
+  <content>Catalog.Сотрудники</content>
+  <content>Catalog.ДополнительныеОтчетыИОбработки</content>
+  <content>DataProcessor.СинхронизацияСAD</content>
+  <content>DataProcessor.СинхронизацияСКадровымиСистемами</content>
 </mdclass:Subsystem>

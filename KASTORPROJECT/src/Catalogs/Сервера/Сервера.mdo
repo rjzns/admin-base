@@ -37,7 +37,7 @@
       <value>Тип сервера</value>
     </synonym>
     <type>
-      <types>CatalogRef.ТипыСерверов</types>
+      <types>EnumRef.ТипыСерверов</types>
     </type>
     <minValue xsi:type="core:UndefinedValue"/>
     <maxValue xsi:type="core:UndefinedValue"/>

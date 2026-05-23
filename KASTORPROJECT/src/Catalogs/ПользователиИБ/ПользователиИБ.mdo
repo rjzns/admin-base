@@ -10,7 +10,7 @@
   <name>ПользователиИБ</name>
   <synonym>
     <key>ru</key>
-    <value>Пользователи Информационных Баз</value>
+    <value>Пользователи ИБ</value>
   </synonym>
   <useStandardCommands>true</useStandardCommands>
   <inputByString>Catalog.ПользователиИБ.StandardAttribute.Description</inputByString>
@@ -31,11 +31,12 @@
   <editType>InDialog</editType>
   <choiceMode>BothWays</choiceMode>
   <defaultObjectForm>Catalog.ПользователиИБ.Form.ФормаЭлемента</defaultObjectForm>
+  <defaultListForm>Catalog.ПользователиИБ.Form.ФормаСписка</defaultListForm>
   <attributes uuid="289be28e-f405-4acc-b105-f2089cb4b77a">
-    <name>НаименованиеБазы</name>
+    <name>ИнформационнаяБаза</name>
     <synonym>
       <key>ru</key>
-      <value>Наименование базы</value>
+      <value>Информационная база</value>
     </synonym>
     <type>
       <types>CatalogRef.ИнформационныеБазы</types>
@@ -105,11 +106,39 @@
     <fullTextSearch>Use</fullTextSearch>
     <dataHistory>Use</dataHistory>
   </attributes>
+  <attributes uuid="6a446e49-70e7-42c9-bc68-5356faa7526d">
+    <name>ИдентификаторПользователяИБ</name>
+    <synonym>
+      <key>ru</key>
+      <value>Идентификатор пользователя ИБ</value>
+    </synonym>
+    <type>
+      <types>UUID</types>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Уникальный идентификатор пользователя информационной базы, с которым сопоставлен этот элемент справочника.</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <indexing>Index</indexing>
+    <dataHistory>Use</dataHistory>
+  </attributes>
   <forms uuid="178ca5b6-6d47-49e4-a638-85b3755bf9d2">
     <name>ФормаЭлемента</name>
     <synonym>
       <key>ru</key>
       <value>Форма элемента</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="7e260faa-a2eb-4835-a564-87e6e9537e16">
+    <name>ФормаСписка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма списка</value>
     </synonym>
     <usePurposes>PersonalComputer</usePurposes>
     <usePurposes>MobileDevice</usePurposes>

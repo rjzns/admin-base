@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DataProcessor xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="b38cd698-0c92-412e-b4f3-96a03a6338ff">
+  <producedTypes>
+    <objectType typeId="054387cc-a8b7-48af-a4dc-7a98a2c21385" valueTypeId="f873cbfb-30bb-41c5-9074-4a4838dd5d4f"/>
+    <managerType typeId="bafb21c8-7071-4444-a143-ed7dd87371aa" valueTypeId="be54e8b3-bc26-499b-8267-3452a981bc56"/>
+  </producedTypes>
+  <name>СинхронизацияСAD</name>
+  <synonym>
+    <key>ru</key>
+    <value>Синхронизация с AD</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <defaultForm>DataProcessor.СинхронизацияСAD.Form.Форма</defaultForm>
+  <forms uuid="0a73a0fd-3978-45e6-85bc-9e4d9a80d9c4">
+    <name>Форма</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:DataProcessor>

@@ -67,6 +67,7 @@
   <styleItems>StyleItem.ЦветРазделаПанелиФункций</styleItems>
   <styleItems>StyleItem.ЦветФонаПредупреждения</styleItems>
   <styleItems>StyleItem.ШрифтОченьКрупныйШрифтТекста</styleItems>
+  <commonPictures>CommonPicture.Администрирование</commonPictures>
   <commonPictures>CommonPicture.АнализДанных48</commonPictures>
   <commonPictures>CommonPicture.ВажностьВысокая</commonPictures>
   <commonPictures>CommonPicture.ВажностьНеЗадана</commonPictures>
@@ -184,6 +185,7 @@
   <commonPictures>CommonPicture.МетаданныеЭлементыСтиля</commonPictures>
   <commonPictures>CommonPicture.МетаданныеЯзыки</commonPictures>
   <commonPictures>CommonPicture.Минимум</commonPictures>
+  <commonPictures>CommonPicture.Настройки</commonPictures>
   <commonPictures>CommonPicture.НезавершившаясяПроверка</commonPictures>
   <commonPictures>CommonPicture.НетГраницы</commonPictures>
   <commonPictures>CommonPicture.ОбновитьФайлИзФайлаНаДиске</commonPictures>
@@ -191,12 +193,14 @@
   <commonPictures>CommonPicture.Органайзер</commonPictures>
   <commonPictures>CommonPicture.ОтправитьПолучитьПочту</commonPictures>
   <commonPictures>CommonPicture.ОтправитьЭлектронноеПисьмо</commonPictures>
+  <commonPictures>CommonPicture.ОтчетыПодсистема</commonPictures>
   <commonPictures>CommonPicture.Ошибка32</commonPictures>
   <commonPictures>CommonPicture.Папка</commonPictures>
   <commonPictures>CommonPicture.ПиктограммыТиповДанных</commonPictures>
   <commonPictures>CommonPicture.ПиктограммыЭлементов</commonPictures>
   <commonPictures>CommonPicture.ПодменюСервис</commonPictures>
   <commonPictures>CommonPicture.Подсистема</commonPictures>
+  <commonPictures>CommonPicture.ПодсистемаНСИ</commonPictures>
   <commonPictures>CommonPicture.Подчеркивание</commonPictures>
   <commonPictures>CommonPicture.ПоказатьОтличия</commonPictures>
   <commonPictures>CommonPicture.ПоказатьТолькоВыбранныеРоли</commonPictures>
@@ -241,6 +245,7 @@
   <commonPictures>CommonPicture.СостоянияРасширенийКонфигурации</commonPictures>
   <commonPictures>CommonPicture.СостоянияРасширенийОшибка</commonPictures>
   <commonPictures>CommonPicture.СостоянияРасширенийПодключено</commonPictures>
+  <commonPictures>CommonPicture.Сотрудники</commonPictures>
   <commonPictures>CommonPicture.СохранитьКак</commonPictures>
   <commonPictures>CommonPicture.СохранитьФайлКак</commonPictures>
   <commonPictures>CommonPicture.Среднее</commonPictures>
@@ -333,6 +338,7 @@
   <roles>Role.УдаленныйДоступБазоваяФункциональность</roles>
   <roles>Role.ЧтениеВнешнихПользователей</roles>
   <commonTemplates>CommonTemplate.ПолучениеДереваОбработчиковОбновления</commonTemplates>
+  <commonModules>CommonModule.адм_Интеграция</commonModules>
   <commonModules>CommonModule.АдминистрированиеКластера</commonModules>
   <commonModules>CommonModule.АдминистрированиеКластераCOM</commonModules>
   <commonModules>CommonModule.АдминистрированиеКластераCOMКлиентСервер</commonModules>
@@ -344,9 +350,16 @@
   <commonModules>CommonModule.ДлительныеОперации</commonModules>
   <commonModules>CommonModule.ДлительныеОперацииВызовСервера</commonModules>
   <commonModules>CommonModule.ДлительныеОперацииКлиент</commonModules>
+  <commonModules>CommonModule.ДополнительныеОтчетыИОбработки</commonModules>
+  <commonModules>CommonModule.ДополнительныеОтчетыИОбработкиВызовСервера</commonModules>
+  <commonModules>CommonModule.ДополнительныеОтчетыИОбработкиКлиент</commonModules>
+  <commonModules>CommonModule.ДополнительныеОтчетыИОбработкиКлиентПереопределяемый</commonModules>
+  <commonModules>CommonModule.ДополнительныеОтчетыИОбработкиКлиентСервер</commonModules>
+  <commonModules>CommonModule.ДополнительныеОтчетыИОбработкиПовтИсп</commonModules>
   <commonModules>CommonModule.ЖурналРегистрации</commonModules>
   <commonModules>CommonModule.ЖурналРегистрацииВызовСервера</commonModules>
   <commonModules>CommonModule.ЖурналРегистрацииКлиент</commonModules>
+  <commonModules>CommonModule.ИнтеграцияAD</commonModules>
   <commonModules>CommonModule.ИнтеграцияПодсистемБСП</commonModules>
   <commonModules>CommonModule.ИнтеграцияПодсистемБСПКлиент</commonModules>
   <commonModules>CommonModule.ИнтеграцияПодсистемБСПКлиентПовтИсп</commonModules>
@@ -355,6 +368,7 @@
   <commonModules>CommonModule.ОбновлениеИнформационнойБазыБСП</commonModules>
   <commonModules>CommonModule.ОбновлениеИнформационнойБазыВызовСервера</commonModules>
   <commonModules>CommonModule.ОбновлениеИнформационнойБазыГлобальный</commonModules>
+  <commonModules>CommonModule.ОбновлениеИнформационнойБазыКИ</commonModules>
   <commonModules>CommonModule.ОбновлениеИнформационнойБазыКлиент</commonModules>
   <commonModules>CommonModule.ОбновлениеИнформационнойБазыКлиентПереопределяемый</commonModules>
   <commonModules>CommonModule.ОбновлениеИнформационнойБазыПереопределяемый</commonModules>
@@ -402,16 +416,21 @@
   <commonModules>CommonModule.СтроковыеФункцииКлиентСервер</commonModules>
   <commonModules>CommonModule.СтроковыеФункцииКлиентСерверЛокализация</commonModules>
   <commonModules>CommonModule.СтроковыеФункцииКлиентСерверРФ</commonModules>
+  <commonModules>CommonModule.УправлениеСвойствами</commonModules>
+  <commonModules>CommonModule.УправлениеСвойствамиКлиент</commonModules>
+  <commonModules>CommonModule.УправлениеСвойствамиПереопределяемый</commonModules>
+  <commonModules>CommonModule.УправлениеСвойствамиПовтИсп</commonModules>
+  <commonModules>CommonModule.УправлениеСвойствамиСлужебный</commonModules>
   <commonModules>CommonModule.ФайловаяСистема</commonModules>
   <commonModules>CommonModule.ФайловаяСистемаКлиент</commonModules>
   <commonModules>CommonModule.ФайловаяСистемаСлужебныйКлиент</commonModules>
   <commonModules>CommonModule.ФайловаяСистемаСлужебныйКлиентСервер</commonModules>
   <commonModules>CommonModule.ФизическиеЛицаКлиентСервер</commonModules>
   <commonModules>CommonModule.ФизическиеЛицаКлиентСерверЛокализация</commonModules>
-  <commonModules>CommonModule.ОбновлениеИнформационнойБазыКИ</commonModules>
   <commonAttributes>CommonAttribute.ОтредактированныеПредопределенныеРеквизиты</commonAttributes>
   <exchangePlans>ExchangePlan.ОбновлениеИнформационнойБазы</exchangePlans>
   <webServices>WebService.InterfaceVersion</webServices>
+  <httpServices>HTTPService.kadry</httpServices>
   <eventSubscriptions>EventSubscription.ВыполнитьДействияПослеПолученияДанныхУзлаВРаспределеннойИнформационнойБазе</eventSubscriptions>
   <eventSubscriptions>EventSubscription.ЗапретитьУдалениеПредопределенныхЭлементов</eventSubscriptions>
   <eventSubscriptions>EventSubscription.ОбновитьВнешнегоПользователя</eventSubscriptions>
@@ -494,6 +513,7 @@
   <commonForms>CommonForm.ВыборТиповПользователей</commonForms>
   <commonForms>CommonForm.ВыборУзловПлановОбмена</commonForms>
   <commonForms>CommonForm.ВыборФорматаВложений</commonForms>
+  <commonForms>CommonForm.ВыводПользователейИБ</commonForms>
   <commonForms>CommonForm.ГруппыПользователей</commonForms>
   <commonForms>CommonForm.ДлительнаяОперация</commonForms>
   <commonForms>CommonForm.КонтрольДинамическогоОбновления</commonForms>
@@ -510,53 +530,63 @@
   <commonForms>CommonForm.СравнениеТабличныхДокументов</commonForms>
   <commonForms>CommonForm.ФормаВыбораЦвета</commonForms>
   <commonForms>CommonForm.ФормаВыбораШрифта</commonForms>
-  <commonForms>CommonForm.ВыводПользователейИБ</commonForms>
-  <catalogs>Catalog.Должности</catalogs>
-  <catalogs>Catalog.ИнформационныеБазы</catalogs>
-  <catalogs>Catalog.Организации</catalogs>
-  <catalogs>Catalog.Подразделения</catalogs>
-  <catalogs>Catalog.РолиВБазах</catalogs>
-  <catalogs>Catalog.Сотрудники</catalogs>
   <catalogs>Catalog.ВерсииРасширений</catalogs>
   <catalogs>Catalog.ВнешниеПользователи</catalogs>
   <catalogs>Catalog.ГруппыВнешнихПользователей</catalogs>
   <catalogs>Catalog.ГруппыПользователей</catalogs>
+  <catalogs>Catalog.Должности</catalogs>
+  <catalogs>Catalog.ДополнительныеОтчетыИОбработки</catalogs>
   <catalogs>Catalog.ИдентификаторыОбъектовМетаданных</catalogs>
   <catalogs>Catalog.ИдентификаторыОбъектовРасширений</catalogs>
+  <catalogs>Catalog.ИнформационныеБазы</catalogs>
+  <catalogs>Catalog.Организации</catalogs>
+  <catalogs>Catalog.Подразделения</catalogs>
   <catalogs>Catalog.Пользователи</catalogs>
   <catalogs>Catalog.ПользователиИБ</catalogs>
   <catalogs>Catalog.ПрофилиДоступа</catalogs>
-  <catalogs>Catalog.СопоставлениеСотрудниковИПользователей</catalogs>
+  <catalogs>Catalog.РолиВБазах</catalogs>
   <catalogs>Catalog.Сервера</catalogs>
+  <catalogs>Catalog.СопоставлениеСотрудниковИПользователей</catalogs>
+  <catalogs>Catalog.Сотрудники</catalogs>
   <catalogs>Catalog.ТипыСерверов</catalogs>
-  <enums>Enum.СтатусДоступа</enums>
+  <catalogs>Catalog.ФизическиеЛица</catalogs>
+  <enums>Enum.ВариантыПубликацииДополнительныхОтчетовИОбработок</enums>
+  <enums>Enum.ВидыДополнительныхОтчетовИОбработок</enums>
+  <enums>Enum.ПолФизическогоЛица</enums>
   <enums>Enum.ПорядокОбработчиковОбновления</enums>
   <enums>Enum.РежимыВыполненияОбработчиков</enums>
   <enums>Enum.РежимыВыполненияОтложенныхОбработчиков</enums>
+  <enums>Enum.РежимыСовместимостиРазрешенийДополнительныхОтчетовИОбработок</enums>
+  <enums>Enum.СпособыВызоваДополнительныхОбработок</enums>
   <enums>Enum.СпособыРедактированияЭлектронныхПисем</enums>
+  <enums>Enum.СтатусДоступа</enums>
   <enums>Enum.СтатусыОбработчиковОбновления</enums>
   <enums>Enum.ТипыДанныхКэшаПрограммныхИнтерфейсов</enums>
+  <enums>Enum.ТипыИнформационныхБаз</enums>
+  <enums>Enum.ТипыСерверов</enums>
   <enums>Enum.ФорматыВыгрузкиОбъектов</enums>
   <enums>Enum.ФорматыСохраненияОтчетов</enums>
-  <enums>Enum.ТипыИнформационныхБаз</enums>
   <reports>Report.ДлительностьОтложенногоОбновления</reports>
   <reports>Report.ПользователиПоПодразделениям</reports>
   <reports>Report.ПрогрессОтложенногоОбновления</reports>
   <reports>Report.СведенияОПользователях</reports>
   <reports>Report.УчастникиГруппПользователей</reports>
   <dataProcessors>DataProcessor.ЖурналРегистрации</dataProcessors>
+  <dataProcessors>DataProcessor.ЗагрузкаДанныхИзБазы1С</dataProcessors>
+  <dataProcessors>DataProcessor.ЗаполнениеИзJSON</dataProcessors>
   <dataProcessors>DataProcessor.НастройкиПользователей</dataProcessors>
   <dataProcessors>DataProcessor.НерекомендуемаяВерсияПлатформы</dataProcessors>
   <dataProcessors>DataProcessor.ОписаниеОбработчиковОбновления</dataProcessors>
   <dataProcessors>DataProcessor.РезультатыОбновленияПрограммы</dataProcessors>
   <dataProcessors>DataProcessor.РекомендацияПоПовышениюСкоростиРаботы</dataProcessors>
-  <dataProcessors>DataProcessor.ЗаполнениеИзJSON</dataProcessors>
-  <informationRegisters>InformationRegister.ДоступыСотрудников</informationRegisters>
+  <dataProcessors>DataProcessor.СинхронизацияСAD</dataProcessors>
+  <dataProcessors>DataProcessor.СинхронизацияСКадровымиСистемами</dataProcessors>
   <informationRegisters>InformationRegister.БезопасноеХранилищеДанных</informationRegisters>
   <informationRegisters>InformationRegister.БезопасноеХранилищеДанныхОбластейДанных</informationRegisters>
   <informationRegisters>InformationRegister.ВерсииПодсистем</informationRegisters>
   <informationRegisters>InformationRegister.ДанныеОбработанныеВЦентральномУзлеРИБ</informationRegisters>
   <informationRegisters>InformationRegister.ДлительныеОперации</informationRegisters>
+  <informationRegisters>InformationRegister.ДоступыСотрудников</informationRegisters>
   <informationRegisters>InformationRegister.ИдентификаторыОбъектовВерсийРасширений</informationRegisters>
   <informationRegisters>InformationRegister.ИерархияГруппПользователей</informationRegisters>
   <informationRegisters>InformationRegister.КэшПрограммныхИнтерфейсов</informationRegisters>
@@ -573,4 +603,5 @@
   <informationRegisters>InformationRegister.СоставыГруппПользователей</informationRegisters>
   <informationRegisters>InformationRegister.УдалитьБезопасноеХранилищеДанныхОбластейДанных</informationRegisters>
   <informationRegisters>InformationRegister.ФиксацияОбработкиДанныхОбработчиками</informationRegisters>
+  <chartsOfCharacteristicTypes>ChartOfCharacteristicTypes.ДополнительныеРеквизитыИСведения</chartsOfCharacteristicTypes>
 </mdclass:Configuration>

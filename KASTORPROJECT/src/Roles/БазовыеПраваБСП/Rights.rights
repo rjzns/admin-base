@@ -339,17 +339,6 @@
 		</right>
 	</object>
 	<object>
-		<name>DataProcessor.РекомендацияПоПовышениюСкоростиРаботы</name>
-		<right>
-			<name>Use</name>
-			<value>true</value>
-		</right>
-		<right>
-			<name>View</name>
-			<value>true</value>
-		</right>
-	</object>
-	<object>
 		<name>CommonCommand.СменитьПароль</name>
 		<right>
 			<name>View</name>
@@ -621,17 +610,6 @@
 	</object>
 	<object>
 		<name>CommonForm.ДлительнаяОперация</name>
-		<right>
-			<name>View</name>
-			<value>true</value>
-		</right>
-	</object>
-	<object>
-		<name>DataProcessor.РезультатыОбновленияПрограммы</name>
-		<right>
-			<name>Use</name>
-			<value>true</value>
-		</right>
 		<right>
 			<name>View</name>
 			<value>true</value>

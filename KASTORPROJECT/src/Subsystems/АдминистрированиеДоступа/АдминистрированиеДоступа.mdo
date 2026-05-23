@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<mdclass:Subsystem xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="96c1c506-06db-4fdb-9557-3521dbd626cc">
+<mdclass:Subsystem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="96c1c506-06db-4fdb-9557-3521dbd626cc">
   <name>АдминистрированиеДоступа</name>
   <synonym>
     <key>ru</key>
@@ -7,6 +7,10 @@
   </synonym>
   <includeHelpInContents>true</includeHelpInContents>
   <includeInCommandInterface>true</includeInCommandInterface>
+  <picture xsi:type="core:PictureRef">
+    <picture>CommonPicture.Настройки</picture>
+  </picture>
+  <content>HTTPService.kadry</content>
   <subsystems>ИнформационныеБазы</subsystems>
   <subsystems>СотрудникиИМестоРаботы</subsystems>
   <subsystems>РолиВБазах</subsystems>

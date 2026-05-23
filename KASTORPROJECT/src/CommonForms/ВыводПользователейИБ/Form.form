@@ -322,7 +322,7 @@
     Связи.Сотрудник                             КАК Сотрудник,
     Связи.Сотрудник.Уволен                      КАК Уволен,
     Связи.ПользовательИБ                        КАК ПользовательИБ,
-    Связи.ПользовательИБ.НаименованиеБазы       КАК ИнформационнаяБаза,
+    Связи.ПользовательИБ.ИнформационнаяБаза     КАК ИнформационнаяБаза,
     Связи.ПользовательИБ.ИмяПользователяИБ      КАК ЛогинВИБ,
     Связи.ПользовательИБ.Недействителен         КАК Заблокирован
 ИЗ
@@ -336,32 +336,12 @@
       <autoSaveUserSettings>true</autoSaveUserSettings>
       <getInvisibleFieldPresentations>true</getInvisibleFieldPresentations>
       <fields xsi:type="schema:DataCompositionSchemaDataSetField">
-        <dataPath>Ссылка</dataPath>
-        <field>Ссылка</field>
-      </fields>
-      <fields xsi:type="schema:DataCompositionSchemaDataSetField">
-        <dataPath>Сотрудник</dataPath>
-        <field>Сотрудник</field>
-      </fields>
-      <fields xsi:type="schema:DataCompositionSchemaDataSetField">
-        <dataPath>ПометкаУдаления</dataPath>
-        <field>ПометкаУдаления</field>
-      </fields>
-      <fields xsi:type="schema:DataCompositionSchemaDataSetField">
-        <dataPath>Код</dataPath>
-        <field>Код</field>
-      </fields>
-      <fields xsi:type="schema:DataCompositionSchemaDataSetField">
         <dataPath>Основной</dataPath>
         <field>Основной</field>
       </fields>
       <fields xsi:type="schema:DataCompositionSchemaDataSetField">
-        <dataPath>Наименование</dataPath>
-        <field>Наименование</field>
-      </fields>
-      <fields xsi:type="schema:DataCompositionSchemaDataSetField">
-        <dataPath>ПользовательИБ</dataPath>
-        <field>ПользовательИБ</field>
+        <dataPath>Код</dataPath>
+        <field>Код</field>
       </fields>
       <fields xsi:type="schema:DataCompositionSchemaDataSetField">
         <dataPath>ДатаОтмены</dataPath>
@@ -372,16 +352,24 @@
         <field>ДатаНазначения</field>
       </fields>
       <fields xsi:type="schema:DataCompositionSchemaDataSetField">
-        <dataPath>Недействителен</dataPath>
-        <field>Недействителен</field>
-      </fields>
-      <fields xsi:type="schema:DataCompositionSchemaDataSetField">
         <dataPath>Предопределенный</dataPath>
         <field>Предопределенный</field>
       </fields>
       <fields xsi:type="schema:DataCompositionSchemaDataSetField">
+        <dataPath>Недействителен</dataPath>
+        <field>Недействителен</field>
+      </fields>
+      <fields xsi:type="schema:DataCompositionSchemaDataSetField">
         <dataPath>ИмяПредопределенныхДанных</dataPath>
         <field>ИмяПредопределенныхДанных</field>
+      </fields>
+      <fields xsi:type="schema:DataCompositionSchemaDataSetField">
+        <dataPath>Ссылка</dataPath>
+        <field>Ссылка</field>
+      </fields>
+      <fields xsi:type="schema:DataCompositionSchemaDataSetField">
+        <dataPath>Сотрудник</dataPath>
+        <field>Сотрудник</field>
       </fields>
       <fields xsi:type="schema:DataCompositionSchemaDataSetField">
         <dataPath>Уволен</dataPath>
@@ -394,6 +382,10 @@
             </content>
           </localValue>
         </title>
+      </fields>
+      <fields xsi:type="schema:DataCompositionSchemaDataSetField">
+        <dataPath>ПользовательИБ</dataPath>
+        <field>ПользовательИБ</field>
       </fields>
       <fields xsi:type="schema:DataCompositionSchemaDataSetField">
         <dataPath>ИнформационнаяБаза</dataPath>
@@ -430,6 +422,14 @@
             </content>
           </localValue>
         </title>
+      </fields>
+      <fields xsi:type="schema:DataCompositionSchemaDataSetField">
+        <dataPath>ПометкаУдаления</dataPath>
+        <field>ПометкаУдаления</field>
+      </fields>
+      <fields xsi:type="schema:DataCompositionSchemaDataSetField">
+        <dataPath>Наименование</dataPath>
+        <field>Наименование</field>
       </fields>
     </extInfo>
   </attributes>

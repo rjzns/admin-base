@@ -8,5 +8,6 @@
   <includeHelpInContents>true</includeHelpInContents>
   <includeInCommandInterface>true</includeInCommandInterface>
   <content>InformationRegister.ДоступыСотрудников</content>
+  <content>Catalog.СопоставлениеСотрудниковИПользователей</content>
   <parentSubsystem>Subsystem.АдминистрированиеДоступа</parentSubsystem>
 </mdclass:Subsystem>

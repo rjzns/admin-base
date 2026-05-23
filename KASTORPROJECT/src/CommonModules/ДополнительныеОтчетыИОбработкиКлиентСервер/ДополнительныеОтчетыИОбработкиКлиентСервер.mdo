@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonModule xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="6632d222-b046-4f01-bc29-7a54463ed1c0">
+  <name>ДополнительныеОтчетыИОбработкиКлиентСервер</name>
+  <synonym>
+    <key>ru</key>
+    <value>Дополнительные отчеты и обработки клиент сервер</value>
+  </synonym>
+  <clientManagedApplication>true</clientManagedApplication>
+  <server>true</server>
+  <externalConnection>true</externalConnection>
+  <clientOrdinaryApplication>true</clientOrdinaryApplication>
+</mdclass:CommonModule>

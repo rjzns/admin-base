@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="c0ae964a-b3f1-4e94-9b88-6e616704b865">
+  <producedTypes>
+    <refType typeId="39d4bacc-965d-4dea-8f61-e697bbcf00be" valueTypeId="6a39b37c-bdb8-453c-9e6f-d3ffa13b64da"/>
+    <listType typeId="91276c19-5ac9-48dc-a12c-14f449a49f56" valueTypeId="b65fe909-4b8b-4ed1-9616-9fa210fbcb0c"/>
+    <managerType typeId="849c4db4-f166-4954-bc32-a56f3193235b" valueTypeId="c1433b96-c62f-4170-9749-210e1ff3a966"/>
+  </producedTypes>
+  <name>ТипыСерверов</name>
+  <synonym>
+    <key>ru</key>
+    <value>Типы серверов</value>
+  </synonym>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="0dbdbd14-c5b9-4d82-b86d-bb46be82bfdc">
+    <name>Файловый</name>
+    <synonym>
+      <key>ru</key>
+      <value>Файловый</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="8e6860ad-c6f0-4657-a333-02fc74c8921a">
+    <name>Рабочий1С</name>
+    <synonym>
+      <key>ru</key>
+      <value>Рабочий сервер приложений 1С</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="6a9d3edc-717b-4ca4-8cb7-5f29de137b67">
+    <name>БД</name>
+    <synonym>
+      <key>ru</key>
+      <value>БД</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="630320db-ebc6-4b2a-83f5-7813ab61a1e4">
+    <name>Лицензирования</name>
+    <synonym>
+      <key>ru</key>
+      <value>Лицензирования</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

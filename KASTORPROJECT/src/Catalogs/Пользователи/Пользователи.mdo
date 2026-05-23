@@ -146,7 +146,7 @@
     <multipleValuesOrderField>-1</multipleValuesOrderField>
   </characteristics>
   <characteristics>
-    <typesFilterValue xsi:type="core:ReferenceValue"/>
+    <typesFilterValue xsi:type="core:UndefinedValue"/>
     <dataPathField>-1</dataPathField>
     <multipleValuesUseField>-1</multipleValuesUseField>
     <characteristicValues>Catalog.Пользователи.TabularSection.КонтактнаяИнформация</characteristicValues>

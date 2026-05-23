@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="ef66856e-c14e-451b-a2e7-9533c6296b4d">
+  <producedTypes>
+    <refType typeId="3a30429e-adb2-44a6-be73-60983c48da2d" valueTypeId="37a12cec-cd36-4f8e-933e-ca745444b269"/>
+    <listType typeId="adcd5cc3-6761-428e-8306-047cbe69cb01" valueTypeId="519b4e1a-ae06-48b6-8e31-24297c20ea23"/>
+    <managerType typeId="d648ea4f-9c98-4134-8901-4cef4167c4b3" valueTypeId="ea466d16-0b76-441f-a2a3-d71f01820a73"/>
+  </producedTypes>
+  <name>РежимыСовместимостиРазрешенийДополнительныхОтчетовИОбработок</name>
+  <synonym>
+    <key>ru</key>
+    <value>Режимы совместимости разрешений дополнительных отчетов и обработок</value>
+  </synonym>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Order</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Ref</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="791d9631-4e2a-4825-aa7b-30dcca5a8b9d">
+    <name>Версия_2_1_3</name>
+    <synonym>
+      <key>ru</key>
+      <value>Версия 2.1.3</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="1074d959-dd33-4b8f-b741-e95295c4aad4">
+    <name>Версия_2_2_2</name>
+    <synonym>
+      <key>ru</key>
+      <value>Версия 2.2.2</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>
